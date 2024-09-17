@@ -29,7 +29,7 @@ const Navbar = () => {
 
       toast("User Successfully Logged In", {
         className: "bg-[#0f2b0f] text-[#76ff7a] border border-black py-2",
-        icon: <CheckCircle size={20} color="#76ff7a" weight="fill" />,
+        icon: <CheckCircle size={20} color="#76ff7a" />,
       });
     }, 2000);
   };
@@ -42,7 +42,7 @@ const Navbar = () => {
 
       toast("User Successfully Logged Out", {
         className: "bg-[#0f2b0f] text-[#76ff7a] border border-black py-2",
-        icon: <CheckCircle size={20} color="#76ff7a" weight="fill" />,
+        icon: <CheckCircle size={20} color="#76ff7a" />,
       });
     }, 2000);
   };
