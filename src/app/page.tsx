@@ -34,7 +34,7 @@ export default function Home() {
               key={index}
               className="bg-white p-6 rounded-lg border-2 border-gray-100 shadow-sm shadow-sky-100 flex flex-col items-center justify-center text-center gap-2 "
             >
-              <feature.icon className="w-12 h-12 text-blue-500 mb-4" />
+              <feature.icon />
               <h3 className="text-xl font-semibold text-gray-900 mb-2">
                 {feature.title}
               </h3>
